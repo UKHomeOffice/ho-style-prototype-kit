@@ -1,6 +1,4 @@
-# GOV.UK Prototype Kit · [![Greenkeeper badge](https://badges.greenkeeper.io/alphagov/govuk-prototype-kit.svg)](https://greenkeeper.io/)
-
-Go to the [GOV.UK Prototype Kit site](https://govuk-prototype-kit.herokuapp.com/docs) to download the latest version and read the documentation.
+# GOV.UK Prototype Kit - Home Office styles
 
 ## About the Prototype Kit
 
