@@ -22,7 +22,7 @@ header {
   }
 
   a:hover {
-    text-decoration: underline;
+    text-decoration: underline!important;
   }
 
 }
@@ -40,6 +40,10 @@ header {
 .header-title {
   margin-right: auto;
   align-self: center;
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .header-name {
