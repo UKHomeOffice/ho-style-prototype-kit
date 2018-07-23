@@ -7,18 +7,19 @@
   font-size: 14px;
   display: flex;
   align-items: center;
+
+  .footer-message {
+
+    p {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+  }
 }
 
 footer {
   border-top: 1px #AAA solid;
   background-color: #FFF;
-}
-
-.footer-message {
-
-  p {
-    margin-bottom: 0;
-  }
 }
 
 .footer-menu {
@@ -64,6 +65,10 @@ footer {
     padding: 20px 15px;
     display: inherit;
     font-size: 0.8em;
+
+    .footer-message {
+      margin-top: 10px;
+    }
   }
 
   .footer-menu {
