@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Prototype home - GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        {{serviceName}}
+        <span class="govuk-caption-xl">Prototype – {{releaseVersion}}</span>
+      </h1>
+
+      <p class="govuk-body-l">
+        This is prototype to test ideas in user research. Sometimes it may not work as expected. The content and design are not final.
+      </p>
+
+      <h2 class="govuk-heading-m">Prototypes</h2>
+
+      <details class="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text govuk-body govuk-!-font-weight-bold">Sprint 1</span>
+        </summary>
+        <div class="govuk-inset-text">
+          <h3 class="govuk-heading-s">Sprint goals</h3>
+          <p>Describe what the user research and design team will be doing over this sprint.</p>
+
+          <h3 class="govuk-heading-s">What changed</h3>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>List each significant change</li>            
+            <li>So others will know what happened</li>            
+            <li>Or what to look for</li>            
+          </ul>
+
+          <h3 class="govuk-heading-s">Why it changed</h3>
+          <p>Describe the learnings and insights from the previous sprint's analysis that led to these changes.</p>
+          <p><a href="#0">Link to start prototype</a></p>
+        </div>
+      </details>
+
+    </div>
+  </div>
+
+{% endblock %}
